@@ -1,0 +1,108 @@
+#navbar {
+	display: flex;
+	height: 72px;
+	align-items: center;
+	/* brand */
+	background: #1F2C5C;
+}
+body{
+	margin: 0;
+}
+.web-logo {
+	width: 55px;
+	height: 48px;
+	margin: 0px 30px;
+	border-radius: 12px;
+	background: url(Logo.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.web-name h1{
+	
+	height: 22px;
+	left: 98px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 22px;
+	/* identical to box height, or 110% */
+	letter-spacing: -0.408px;
+	/* white */
+	color: #FFFFFF;
+}
+#body-page{
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	background-color: #FAFAFA;
+}
+#frame {
+	margin: 136px auto;
+	width: 690px;
+	height: 395px;
+}
+#login-form{
+	margin: 136px auto;
+}
+#login-form form{
+	height: 456px;
+	padding: 56px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.06);
+	border-radius: 6px;
+}
+#login-form form div{
+	margin: 10px;
+}
+ h1#login{
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	
+	color: #333333;
+}
+#login-form form h2{
+	bottom: 70.89%;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 22px;
+	/* identical to box height */
+	/* Gray 2 */
+	color: #4F4F4F;
+}
+#login-form form a{
+	
+	font-family: Inter;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	/* identical to box height, or 157% */
+	
+	letter-spacing: -0.408px;
+	color: #AF8900;
+}
+button, input{
+	width: 366px;
+	height: 48px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 6px;
+}
+#body-page #login-form #button{
+	margin: 0;
+	color: #FFFFFF;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 22px;
+	background-color: #1F2C5C;
+	border-radius: 6px;
+}

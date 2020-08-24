@@ -1,0 +1,168 @@
+@media(max-width:1200px){
+	html{
+		height: 100%;
+	}
+	#navbar{
+		height: 44px;
+		background: white;
+		margin: 0;
+		border: 1px solid #ECECEC;
+		}
+	.web-logo{
+		height: 35px;
+		width: 40px;
+	}
+	.web-name h1{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 22px;
+		margin: auto;
+		/* identical to box height, or 129% */
+		text-align: center;
+		letter-spacing: -0.408px;
+		color: #000000;
+	}
+	#body-page{
+		display: block;
+		margin: 53px 16px;
+		background-color: white;
+	}
+	#frame{
+		width: 690px;
+		height: 395px;
+		margin: 0px auto;
+		
+	}
+	#login-form {
+		margin: 136px auto;
+		height: 456px;
+		width: 450px;
+	}
+	#login-form form div{
+	margin: 0px;
+	}
+	h1#login {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		padding-bottom: 41px;
+		display: block;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	#login-form form h2{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 17px;
+		/* identical to box height */
+		display: flex;
+		align-items: center;
+		color: rgba(0, 0, 0, 0.3);
+	}
+	#login-form form a{
+		
+	}
+	button, input{
+		width: 343px;
+		height: 52px;
+		margin-bottom: 10px;
+	}
+	#body-page #login-form #button {
+	margin-top: 24px;
+	}
+}
+
+@media(max-width:768px){
+	html{
+		height: 100%;
+	}
+	#navbar{
+		height: 44px;
+		background: white;
+		margin: 0;
+		border: 1px solid #ECECEC;
+		}
+	.web-logo{
+		height: 35px;
+		width: 40px;
+	}
+	.web-name h1{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 17px;
+		line-height: 22px;
+		margin: auto;
+		/* identical to box height, or 129% */
+		text-align: center;
+		letter-spacing: -0.408px;
+		color: #000000;
+	}
+	#body-page{
+		display: block;
+		margin: 53px 16px;
+		background-color: white;
+	}
+	#frame{
+		width: 350px;
+		height: 200px;
+		margin: 0px auto;
+	}
+	#frame img {
+		/*display: block;*/
+		width: 350px;
+	}
+	#login-form {
+		margin: 136px auto;
+		height: 456px;
+		width: 450px;
+	}
+	#login-form form div{
+	margin: 0px;
+	}
+	h1#login {
+		font-family: Inter;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		padding-bottom: 41px;
+		display: block;
+		align-items: center;
+		text-align: center;
+		letter-spacing: 0.04em;
+		text-transform: uppercase;
+		color: #000000;
+	}
+	#login-form form h2{
+		font-family: Inter;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 17px;
+		/* identical to box height */
+		display: flex;
+		align-items: center;
+		color: rgba(0, 0, 0, 0.3);
+	}
+	#login-form form a{
+		
+	}
+	button, input{
+		width: 343px;
+		height: 52px;
+		margin-bottom: 10px;
+	}
+	#body-page #login-form #button {
+	margin-top: 24px;
+	}
+}
